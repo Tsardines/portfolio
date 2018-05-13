@@ -1,9 +1,29 @@
+body {
+  margin: 0 auto;
+  width: 100%;
+}
 
+.footer {
+  background-color: turquoise;
+}
+
+.foot-list {
+  list-style-type: none;
+}
 
 .header {
   background-color: turquoise;
 }
 
 .nav-list {
-  text-decoration: none;
+  display: inline;
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+}
+
+.tech {
+  background-color: turquoise;
 }
