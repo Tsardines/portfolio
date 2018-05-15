@@ -1,3 +1,5 @@
+@import "bulma";
+
 body {
   /* font-family: 'PT Sans Narrow', sans-serif; */
   margin: 0 auto;
@@ -54,7 +56,7 @@ li a {
 
 .project {
   display: flex;
-  margin: 60px 0 60px 0;
+  margin: 60px 10px 60px 10px;
   height: 200px;
   width: 300px;
 }
@@ -76,7 +78,6 @@ li a {
 }
 
 .tech {
-  /* background-color: turquoise; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -89,4 +90,57 @@ li a {
 
 .title {
   text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.foot-links {
+  font-size: 21px;
+}
+
+.left-box {
+  padding: 20px 90px 10px 90px;
+  width: 100%;
+}
+
+.left-box h1 {
+  font-size: 30px;
+}
+
+.left-box a {
+  color: black;
+}
+
+.left-box p {
+  font-size: 19px;
+}
+
+.button-wrap {
+  display: flex;
+}
+
+.button-2 {
+  height: 50px;
+  padding-bottom: 10px;
+  width: 50px;
+}
+
+.button-3 {
+  height: 50px;
+  padding-bottom: 10px;
+  width: 50px;
+}
+
+.button-1 {
+  height: 50px;
+  padding-bottom: 10px;
+  width: 50px;
 }
