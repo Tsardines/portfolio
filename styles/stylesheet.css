@@ -1,7 +1,14 @@
+@import "bulma";
+
 body {
   /* font-family: 'PT Sans Narrow', sans-serif; */
   margin: 0 auto;
   width: 100%;
+}
+
+.about {
+  font-size: 30px;
+  margin-top: 50px;
 }
 
 .about-text {
@@ -13,10 +20,6 @@ body {
 .bio-section {
   height: 190px;
   text-align: center;
-}
-
-.container {
-  /* background-color: turquoise; */
 }
 
 .footer {
@@ -32,7 +35,9 @@ body {
 }
 
 .img-tech {
+  display: flex;
   height: 100px;
+  margin: 50px 0 50px 0;
   width: 100px;
 }
 
@@ -49,25 +54,23 @@ li a {
   text-align: center;
 }
 
+.project {
+  display: flex;
+  margin: 60px 10px 60px 10px;
+  height: 200px;
+  width: 300px;
+}
+
+.projects-line {
+  font-size: 30px;
+  text-align: center;
+}
+
 .projects-section {
   background-color: turquoise;
-  height: 190px;
-}
-
-.p1 {
-  background-color: green;
-}
-
-.p2 {
-  background-color: green;
-}
-
-.p3 {
-  background-color: green;
-}
-
-.p4 {
-  background-color: green;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .subtitle {
@@ -75,9 +78,69 @@ li a {
 }
 
 .tech {
-  background-color: turquoise;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.tech-line {
+  font-size: 30px;
+  text-align: center;
 }
 
 .title {
   text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.foot-links {
+  font-size: 21px;
+}
+
+.left-box {
+  padding: 20px 90px 10px 90px;
+  width: 100%;
+}
+
+.left-box h1 {
+  font-size: 30px;
+}
+
+.left-box a {
+  color: black;
+}
+
+.left-box p {
+  font-size: 19px;
+}
+
+.button-wrap {
+  display: flex;
+}
+
+.button-2 {
+  height: 50px;
+  padding-bottom: 10px;
+  width: 50px;
+}
+
+.button-3 {
+  height: 50px;
+  padding-bottom: 10px;
+  width: 50px;
+}
+
+.button-1 {
+  height: 50px;
+  padding-bottom: 10px;
+  width: 50px;
 }
