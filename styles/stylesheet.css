@@ -1,0 +1,83 @@
+body {
+  /* font-family: 'PT Sans Narrow', sans-serif; */
+  margin: 0 auto;
+  width: 100%;
+}
+
+.about-text {
+  display: inline;
+  text-align: center;
+  width: 30%;
+}
+
+.bio-section {
+  height: 190px;
+  text-align: center;
+}
+
+.container {
+  /* background-color: turquoise; */
+}
+
+.footer {
+  background-color: turquoise;
+}
+
+.foot-list {
+  list-style-type: none;
+}
+
+.header {
+  background-color: turquoise;
+}
+
+.img-tech {
+  height: 100px;
+  width: 100px;
+}
+
+.nav-list {
+  display: inline;
+  list-style-type: none;
+}
+
+li a {
+  display: block;
+}
+
+.name {
+  text-align: center;
+}
+
+.projects-section {
+  background-color: turquoise;
+  height: 190px;
+}
+
+.p1 {
+  background-color: green;
+}
+
+.p2 {
+  background-color: green;
+}
+
+.p3 {
+  background-color: green;
+}
+
+.p4 {
+  background-color: green;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.tech {
+  background-color: turquoise;
+}
+
+.title {
+  text-align: center;
+}
