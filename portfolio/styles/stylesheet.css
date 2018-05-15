@@ -4,6 +4,11 @@ body {
   width: 100%;
 }
 
+.about {
+  font-size: 30px;
+  margin-top: 50px;
+}
+
 .about-text {
   display: inline;
   text-align: center;
@@ -47,25 +52,23 @@ li a {
   text-align: center;
 }
 
+.project {
+  display: flex;
+  margin: 60px 0 60px 0;
+  height: 200px;
+  width: 300px;
+}
+
+.projects-line {
+  font-size: 30px;
+  text-align: center;
+}
+
 .projects-section {
   background-color: turquoise;
-  height: 190px;
-}
-
-.p1 {
-  background-color: green;
-}
-
-.p2 {
-  background-color: green;
-}
-
-.p3 {
-  background-color: green;
-}
-
-.p4 {
-  background-color: green;
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .subtitle {
@@ -80,6 +83,7 @@ li a {
 }
 
 .tech-line {
+  font-size: 30px;
   text-align: center;
 }
 
