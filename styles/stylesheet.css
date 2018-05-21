@@ -2,8 +2,8 @@
 
 body {
   /* font-family: 'PT Sans Narrow', sans-serif; */
-  margin: 0 auto;
-  width: 100%;
+  /* margin: 0 auto;
+  width: 100%; */
 }
 
 .about {
@@ -14,7 +14,7 @@ body {
 .about-text {
   display: inline;
   text-align: center;
-  width: 30%;
+  /* width: 30%; */
 }
 
 .bio-section {
@@ -56,14 +56,15 @@ li a {
 
 .project {
   display: flex;
-  margin: 60px 10px 60px 10px;
   height: 200px;
-  width: 300px;
+  margin: 60px 10px 60px 10px;
+  width: 275px;
 }
 
 .projects-line {
   font-size: 30px;
   text-align: center;
+  width: 100%;
 }
 
 .projects-section {
